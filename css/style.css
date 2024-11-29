@@ -6737,7 +6737,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #d39e00 !important;
 }
 
 a.bg-warning:hover,
@@ -10458,7 +10458,7 @@ a.text-info:focus {
 }
 
 .text-warning {
-  color: #ffc107 !important;
+  color: #d39e00 !important;
 }
 
 a.text-warning:hover,
@@ -10498,7 +10498,7 @@ a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #818491!important;
 }
 
 .text-black-50 {
@@ -10638,6 +10638,22 @@ a.text-dark:focus {
 }
 
 /********** Template CSS ************/
+
+/* Gaya untuk gambar agar menjadi kecil dan bulat */
+.rounded-img {
+  width: 150px;
+  /* Atur lebar gambar */
+  height: 150px;
+  /* Atur tinggi gambar */
+  border-radius: 50%;
+  /* Membuat gambar bulat */
+  object-fit: cover;
+  /* Menjaga gambar tetap proporsional dan tidak terdistorsi */
+  margin-top: 20px;
+  /* Memberikan sedikit jarak di atas gambar */
+}
+
+
 #textToCopy {
   position: absolute;
   width: 1px;
@@ -10672,10 +10688,6 @@ a.text-dark:focus {
   color: transparent;
   left: -9999px;
   /* Posisi di luar layar */
-}
-
-.bg-audio {
-  display: none;
 }
 
 .font-primary {
